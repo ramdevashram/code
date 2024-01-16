@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git 'https://github.com/ramdevashram/python.git'
+                git 'https://github.com/ramdevashram/code.git'
             }
         }
         stage('python') {
